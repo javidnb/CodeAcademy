@@ -1,0 +1,89 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style>
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+ul.ul1{
+    list-style-type: none;
+    width: 35%;
+    border-radius: 3px;
+}
+ul.ul1 li{
+    display: block;
+    border: 1px solid #DBDBDB;
+    padding: 7px 0px 7px 20px;
+    border-bottom: 0px;
+}
+/* 2ci ul*/
+ul.ul2{
+    width: 200px;
+    list-style-type: none;    
+}
+.ul2 li{
+    
+    border:1px solid #C9C9C9;
+    border-bottom: 0px;
+    background-color: #E3E3E3;
+    min-height: 45px;
+}
+.ul2 li:hover{
+    background-color: #FAFBFC;
+}
+.ul2 li a {
+    padding: 13px 0px 13px 30px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+#active{
+    background-color: #FAFBFC;
+    border-right:0px;
+    border-left:0px;    
+}
+</style>
+</head>
+<body>
+    <ul class="ul1">
+        <li style="border-top-left-radius: 3px; border-top-right-radius: 3px;">
+            SWEETS
+        </li>
+        <li>
+            SNACKS
+        </li>
+        <li>
+            MISE
+        </li>
+        <li>
+            REGIONAL
+        </li>
+        <li style="border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; border-bottom:1px solid #DBDBDB;">
+            BAKING
+        </li>
+    </ul>
+    
+    <hr />
+    
+    <ul class="ul2">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li id="active">
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">Our products</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+        <li style="border-bottom: 1px solid #C9C9C9;">
+        
+        </li>
+    </ul>
+</body>
+</html>

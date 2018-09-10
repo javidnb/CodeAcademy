@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../img/bg-body.jpg");
+    padding-top: 20px;
+}
+nav {
+    background-image: url("../img/bg-navigation.png");
+    height: 68px;
+    margin-top: 20px;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+footer{
+    border-top: 5px solid rgb(201, 59, 59);
+    height: 250px;
+    padding-top: 70px;
+    margin-top:50px;
+    background-color: #1b6568;
+
+}
+main {
+    margin-top: 30px;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.navigation {
+    text-decoration: none;
+    
+}
+.navigation li {
+    display: inline-block;
+    padding: 10px;
+    
+}
+.navigation li a {
+    color: #94c4c7;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 17px;
+}
+.social {
+    text-decoration: none;
+    padding: 0;
+}
+.social li {
+    display: inline-block;
+    background-color: rgb(201, 59, 59);
+    
+    border: 3px solid #94c4c7;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.social li a {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    
+}
+.fab {
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+}
+.active a {
+    color: #fff;
+}
+.copyright {
+    color: #94c4c7;
+}
+.navigation li a:hover {
+    color: #fff;
+}
+.breakfast img {
+    border: 6px solid rgb(201, 59, 59);
+    border-radius: 5px;
+}
+input[type="email"] {
+    border: 3px solid rgb(201, 59, 59);
+    padding: 3px;
+    border-radius: 30px;
+    width: 250px;
+}
+input[type="button"]{
+    background-color: rgb(201, 59, 59);
+    padding: 8px;
+    border-radius: 5px;
+    width: 250px;
+    color: #94c4c7;
+    border: 3px solid #94c4c7;
+}
+
+[class*="col-"]{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}

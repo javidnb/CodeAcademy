@@ -1,0 +1,30 @@
+﻿-= ASSEMBLER =-
+
+Assembly dilində yazılmış kodları 16lıq sayı halındaki "maşın kodları"na çevirən programdır.
+Assembly "imperative" paradigmaya aiddir. Bu dil vasitəsi ilə kodun istifadə olunacağı cihaz üzərində daha yüksək hakimiyyət qurula bilir. 
+RAM və CPU`daki dəyərləri birbaşa dəyişdirə bilmək mümkündür. Yazılan kodlar digər dillərə nisbətən daha sürətli işləyir və az boyutlu olur. 
+Əməliyyat sistemlərində kernel programlanmasında, sürət tələb edən kritik yazılımlarda, həmçinin bir çox müxtəlif elektronik cihazlarda istifadə olunur.
+Dezavantajları: Bu dildə program yazmaq digər modern dillərə görə daha çətindir və çox zaman alır. 
+Assembly ilə program yazmaq üçün istifadə olunan mikroişlemcinin quruluşu bilinməlidir. Bir mikroişlemci üçün yazılan kod digərində işləməyəbilər. 
+
+-= C =-
+
+"Imperative" paragidmaya aiddir. 1972ci ildə yaranmışdır. Uzun illər mövcud olduğu üçün internet üzərində sonsuz sayda qaynaqça tapmaq mümkündür. 
+UNIX, Assembly və B dillərindən yaranmışdır. Müasir bir çox object oriented programlama dilləri C`dən törədilmişdir. Gömülü sistemlərdə C dili bir nömrəli
+istifadə olunan programlama dilidir. 
+
+-= JavaScript =-
+
+Javascript object-oriented, imperative paradigmalara aid sayıla bilər. Html və css`lə birlikdə web programlamanın təməlini oluştururlar.
+Dinamik web-saytlar qurmağa köməkçi olur (səhifə yenilənmədən strukturda dəyişikliklər ediləbilir) Demək olar ki, bütün modern web-saytlarda istifadə olunur.
+Əsasən client-sided programlamadır, ancaq Node.js və bu kimi texnologiyalarla birlikdə server-sided kodlama da ediləbilir. Web-programlamadan başqa yerlərdə də
+istifadə olunur (məs: chrome extensions, unity oyun mühərriki js`in modifiye olunmuş versiyasını dəstəkləyir, 
+adobe acrobat reader pdf fayllarda js dəstəkləyir və.s)
+Dezavantaj olaraq isə, kodlama zamanı ciddi təhlükəsizlik tədbirləri görülməzsə web-saytı və database`i siber ataklara qarşı 
+açıq qoya biləcəyini göstərmək olar.
+
+
+-= ASP.NET =-
+
+Active Server Pages, dinamik, server-sided programlama üçün Microsoft tərəfindən yazılmışdır. .NET platformundaki C#, Visual Basic dilləri ilə ASP.NET 
+web-səhifələri yazıla bilər. hotmail.com, ebay.com və.s bir çox saytlarda istifadə olunur. 

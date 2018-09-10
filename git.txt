@@ -1,0 +1,6 @@
+echo "# test" >> README.md
+git init
+git add -A
+git commit -m "commit"
+git remote add origin https://github.com/javidnb/test.git
+git push -u origin master

@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+#whatIDo {
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+}
+
+.workie {
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-top: 100px;    
+    background-color: white;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);  
+    border-radius: 5px;
+}
+
+.workie:hover {
+    background-color: #E02217;
+    transform: scale(1.06);
+    transition: all 0.36s;
+    
+}
+
+.workie::before {
+    content: "";
+    position: absolute;    
+    height: 25%;
+    width: 25%;
+    left: 10px;
+    top: 10px;
+    border-top: 1px solid #E02217;
+    border-left: 1px solid #E02217;    
+    border-top-left-radius: 5px;    
+    transition: all 0.36s;
+}
+
+.workie::after {
+    content: "";
+    position: absolute;    
+    height: 25%;
+    width: 25%;
+    right: 10px;
+    bottom: 10px;
+    border-right: 1px solid #E02217;
+    border-bottom: 1px solid #E02217;    
+    border-bottom-right-radius: 5px;    
+    transition: all 0.36s;
+}
+
+.workie:hover::before {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.workie:hover::after {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white; 
+}
+
+.workie h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    transition: all 0.36s;
+}
+
+.workie:hover h2 {
+    color: white;
+    transform: translate(0,20px);
+}
+
+.workie i {
+    color: #E02217;
+    font-size: 30px;
+    transition: all 0.36s; 
+}
+
+.workie:hover i {
+    color: white;
+    transform: translate(0,-80px);
+}
+
+.workie p {
+    transform: scale(-1);
+    transform: translate(0,30px);
+    transition: all 0.36s;    
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+.workie:hover p {
+    transform: scale(1);
+    transform: translate(0,0);
+}
+
+.folio {
+    list-style-type: none;
+    margin-top: 90px;    
+}
+.folio li {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+.folio li img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;    
+    transition: all 0.5s;
+}
+.folio li:hover img {
+    transform: scale(1.1);
+}
+
+.work {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    color: #777;
+}
+h1 span {
+    background-color: #E02217;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    font-family: 'Clicker Script', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #a7a7a7;
+    font-size: 14px;
+    display: block;
+    margin-top: -7px;
+}
+
+.categories {
+    list-style-type: none;
+}
+
+.categories li {
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.categories li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Clicker Script', cursive;
+    display: inline-block;
+    padding: 8px 25px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.image img {
+    width: 200px;
+}

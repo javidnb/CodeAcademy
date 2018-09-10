@@ -1,0 +1,36 @@
+.portfolio .item{
+    height: 200px;
+    width: 25%;
+    float: left;
+}
+.color1{
+    height: 100px;
+    background-color: black;
+}
+.color2{
+    height: 100px;
+    background-color: green;
+}
+.color3{
+    height: 100px;
+    background-color: blue;
+}
+
+hr{
+    margin-top: 20px;
+}
+.row .text{
+    float: left;
+    width: 50%;
+}
+.row .img{
+    float: left;
+    width: 50%;
+}
+.row .img img{
+    max-width: 100%;
+}
+
+.clear{
+    clear: both;
+}
